@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grime Reaper Power Wash</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#000;color:#fff;line-height:1.6}
+header{padding:30px;text-align:center;background:#050505}
+header img{max-width:220px}
+.hero{padding:60px 20px;text-align:center;background:linear-gradient(#000,#021d33)}
+.hero h1{font-size:3rem;color:#35a4ff}
+.btn{display:inline-block;background:#35a4ff;color:#fff;padding:14px 24px;border-radius:8px;text-decoration:none;margin-top:20px}
+section{padding:40px 20px;max-width:1200px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:#111;padding:20px;border:1px solid #35a4ff;border-radius:10px}
+.gallery img{width:100%;border-radius:10px}
+form{display:grid;gap:15px}
+input,textarea{padding:12px;border-radius:6px;border:none}
+footer{padding:30px;text-align:center;background:#050505}
+a{color:#35a4ff}
+</style>
+</head>
+<body>
+
+<header>
+<img src="assets/img0.jpeg">
+<h2>We Wash Away The Grime, You Keep The Shine</h2>
+</header>
+
+<div class="hero">
+<h1>Macomb County Pressure Washing</h1>
+<p>Professional soft washing, concrete cleaning, deck washing, and gutter cleaning.</p>
+<a class="btn" href="#quote">Get A Free Quote</a>
+</div>
+
+<section>
+<h2>Services</h2>
+<div class="grid">
+<div class="card"><h3>House Soft Wash</h3></div>
+<div class="card"><h3>Deck Washing</h3></div>
+<div class="card"><h3>Concrete Cleaning</h3></div>
+<div class="card"><h3>Gutter Cleaning</h3></div>
+</div>
+</section>
+
+<section class="gallery">
+<h2>Before & After Gallery</h2>
+<div class="grid">
+<img src="assets/img1.jpeg">
+<img src="assets/img2.jpeg">
+<img src="assets/img3.jpeg">
+<img src="assets/img4.jpeg">
+<img src="assets/img5.jpeg">
+<img src="assets/img6.jpeg">
+<img src="assets/img7.jpeg">
+<img src="assets/img8.jpeg">
+<img src="assets/img9.jpeg">
+</div>
+</section>
+
+<section id="quote">
+<h2>Request A Quote</h2>
+<form name="quote-request" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="quote-request">
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="tel" name="phone" placeholder="Phone Number" required>
+<input type="email" name="email" placeholder="Email Address" required>
+<textarea name="details" placeholder="Describe your project"></textarea>
+<button class="btn" type="submit">Submit Quote Request</button>
+</form>
+</section>
+
+<section>
+<h2>Residential Service Agreement & Liability Waiver</h2>
+<form name="service-contract" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="service-contract">
+<input type="text" name="client-name" placeholder="Client Name" required>
+<input type="text" name="service-address" placeholder="Service Address" required>
+<textarea name="agreement" rows="16">By signing below, I acknowledge and agree to the complete Residential Service Agreement & Liability Waiver provided by Grime Reaper Power Wash, including all liability disclaimers, inspection acknowledgments, service terms, and hold harmless clauses.</textarea>
+<input type="text" name="signature" placeholder="Type Full Legal Name as Signature" required>
+<button class="btn" type="submit">Sign Agreement</button>
+</form>
+</section>
+
+<section>
+<h2>Connect With Us</h2>
+<p><a href="https://www.facebook.com/share/1CoGdk5xjt/?mibextid=wwXIfr">Facebook</a></p>
+<p><a href="https://www.instagram.com/grime_reaper_power_wash?igsh=ZjBhYWQ4M2NleW9l&utm_source=qr">Instagram</a></p>
+<p><a href="https://www.tiktok.com/@grime_reaper_power_wash?_r=1&_t=ZT-96rW06xEbjK">TikTok</a></p>
+<p><a href="https://yelp.to/WQs2Xn2eJp">Yelp Reviews</a></p>
+</section>
+
+<footer>
+<p>Grime Reaper Power Wash</p>
+<p>586-872-8715 | grimereaperpowerwash611@gmail.com</p>
+</footer>
+
+</body>
+</html>
